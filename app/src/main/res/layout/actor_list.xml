@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:id="@+id/actor_list"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="100dp"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/actor_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/actor_name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Actor"
+        android:textSize="15dp"
+        android:maxLines="2"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/as_actor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="As Hero"
+        android:textSize="15dp"
+        android:maxLines="1"
+        />
+</LinearLayout>

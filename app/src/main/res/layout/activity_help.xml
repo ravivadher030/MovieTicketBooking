@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Help"
+    android:padding="10dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/back_btn"
+            android:src="@drawable/left_arrow"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textFontWeight="700"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help &amp; Support"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textFontWeight="900"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Most of your booking &amp; refund related queries can be answered by logging into your Profile > Purchase History. Please register and login before the purchase to avoid many booking related issues.\n\n
+2. In case money is deducted and booking failed, please be rest assured that you will receive the refund in max 5-7 working days. You can check Refund status in the Profile > Purchase History.\n\n
+3. Opt refund to 'BMS Cash' to get Instant credit for future purchases.\n\n
+4. Ticket cancellation is available for most of the cinemas. However, there are certain exceptions such as offer/loyalty points applied, cut-off time exceeded, monthly cancellation limit (3 times) exhausted, etc. which can prevent you from going ahead with the cancellation. Please note that there is no ticket cancellation applicable."/>
+</androidx.appcompat.widget.LinearLayoutCompat>
